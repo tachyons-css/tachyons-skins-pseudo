@@ -1,4 +1,4 @@
-# tachyons-skins-psuedo 1.0.0
+# tachyons-skins-psuedo
 
 Classes for setting color and background color for focus and hover states.
 
