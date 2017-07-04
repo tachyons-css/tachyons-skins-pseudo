@@ -1,4 +1,4 @@
-# tachyons-skins-psuedo 1.0.0
+# tachyons-skins-pseudo 1.0.0
 
 Classes for setting color and background color for focus and hover states.
 
@@ -13,13 +13,13 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-skins-psuedo
+npm install --save-dev tachyons-skins-pseudo
 ```
 
 #### With Git
 
 ```
-git clone https://github.com/tachyons-css/tachyons-skins-psuedo
+git clone https://github.com/tachyons-css/tachyons-skins-pseudo
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ git clone https://github.com/tachyons-css/tachyons-skins-psuedo
 Import the css module
 
 ```css
-@import "tachyons-skins-psuedo";
+@import "tachyons-skins-pseudo";
 ```
 
 Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -45,7 +45,7 @@ The built CSS is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-skins-psuedo">
+<link rel="stylesheet" href="path/to/module/css/tachyons-skins-pseudo">
 ```
 
 #### Development
