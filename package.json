@@ -1,7 +1,7 @@
 {
   "name": "tachyons-skins-pseudo",
   "description": "Classes for setting color and background color for focus and hover states.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
@@ -21,7 +21,7 @@
   "repository": "tachyons-css/tachyons-skins-pseudo",
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.9",
+    "tachyons-cli": "^1.0.11",
     "watch": "^1.0.1"
   },
   "scripts": {

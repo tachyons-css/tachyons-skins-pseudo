@@ -1,4 +1,4 @@
-# tachyons-skins-psuedo 1.0.0
+# tachyons-skins-pseudo 1.0.4
 
 Classes for setting color and background color for focus and hover states.
 
@@ -13,47 +13,65 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev tachyons-skins-psuedo
+npm install --save-dev tachyons-skins-pseudo
 ```
+
+Learn more about using css installed with npm:
+* https://webpack.github.io/docs/stylesheets.html
+* https://github.com/defunctzombie/npm-css
 
 #### With Git
 
+http:
 ```
-git clone https://github.com/tachyons-css/tachyons-skins-psuedo
+git clone https://github.com/tachyons-css/tachyons-skins-pseudo
+```
+
+ssh:
+```
+git clone git@github.com:tachyons-css/tachyons-skins-pseudo.git
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
 ```css
-@import "tachyons-skins-psuedo";
+@import "tachyons-skins-pseudo";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
 $ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+##### CDN
+The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
+
+```
+<link rel="stylesheet" href="http://unpkg.com/tachyons-skins-pseudo@1.0.4/css/tachyons-skins-pseudo.min.css" />
+```
+
+##### Locally
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/tachyons-skins-psuedo">
+<link rel="stylesheet" href="path/to/module/css/tachyons-skins-pseudo">
 ```
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
 /*
@@ -238,5 +256,5 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 ## License
 
-MIT
+ISC
 
